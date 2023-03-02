@@ -396,7 +396,7 @@ li{
 	background: linear-gradient(88.14deg, #E0E0E0 1.47%, rgba(217, 217, 217, 0) 73.58%);
 }
 .service_section{
-  padding-bottom: 40px ;
+  padding-bottom: 20px ;
 }
 .service_doc h3 {
   font-size: 30px;
@@ -461,4 +461,215 @@ li{
 .service-img img {
   max-width: 100%;
 	margin-top: -50px;
+}
+/* brand section */
+
+
+.brand-heading h5 {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+}
+.brand-heading h5 span {
+  font-weight: 600;
+}
+.brand-img img {
+	display: inline-block;
+	margin-left: 28px;
+}
+.brand-img img:nth-child(1){
+  margin-left: 0;
+}
+/* contact us section */
+.contact_us {
+	padding: 50px 0;
+}
+.contact-form {
+  padding-right: 100px;
+}
+.contact-form h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #241830;
+}
+.contact-form input {
+  display: block;
+  width: 100%;
+  margin: 40px 0;
+  padding: 14px 25px;
+  border: 1.25291px solid rgba(34, 34, 47, 0.4);
+  color: #000;
+}
+.contact-form input:nth-child(4){
+  margin-bottom: 0px;
+}
+
+.contact-form input:focus{
+  border: 1.25291px solid rgba(34, 34, 47, 0.4);
+}
+.contact-form input::placeholder {
+  color: rgba(34, 34, 47, 0.4);
+  font-weight: 700;
+  font-size: 18px;
+}
+.checked input {
+	width: 18px;
+	display: inline;
+	height: 18px;
+	margin-right: 10px;
+	margin-top: 23px;
+	margin-bottom: 22px;
+}
+.checked label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #19171B;
+}
+.contact-form button {
+	padding: 7px 40px;
+	font-size: 16px;
+	border: 0;
+	background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 33.33%, rgba(0, 0, 0, 0) 100%), #A81413;
+	color: #fff;
+	font-weight: 700;
+}
+
+.contact-form {
+  padding-right: 100px;
+}
+.contact-form h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #241830;
+}
+.contact-info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 34px;
+  padding: 20px 0;
+  margin-top: 21px;
+}
+.contact-info .contact-call {
+  display: flex;
+}
+
+.contact-email {
+  display: flex;
+}
+.contact-info .contact-call .icon span {
+	font-size: 24px;
+	margin-right: 11px;
+	line-height: 39px;
+}
+.contact-info .contact-call .data a {
+	display: inline-block;
+	color: #000;
+	font-size: 18px;
+	line-height: 12px;
+}
+.contact-info .contact-call .data p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+}
+.contact-email .icon span {
+  font-size: 24px;
+	margin-right: 11px;
+	line-height: 39px;
+}
+.contact-email .data a {
+	display: inline-block;
+	color: #000;
+	font-size: 18px;
+	line-height: 12px;
+}
+.contact-email .data p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+}
+/* footer section */
+
+.footer-section {
+  padding: 60px 0 40px 0;
+  background: #1E1E1E;
+}
+.footer-area {
+  margin: 0 140px;
+}
+.footer-location ul li {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.footer-location ul li span {
+  font-size: 22px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.footer-location ul li {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.footer-location ul li span {
+  font-size: 22px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.footer-social ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.footer-social ul li:nth-child(1){
+  margin-left: 0;
+}
+.footer-social ul li a {
+  display: block;
+  padding: 5px 12px;
+  background: #605B5B;
+  border-radius: 4.8889px;
+  color: #fff;
+  width: 44px;
+  height: 37px;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: center;
+}
+.footer-location ul {
+	margin-bottom: 26px;
+}
+.footer-link{
+  margin-top: 20px;
+}
+.footer-info p {
+  color: #E2E2E2;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.footer-info p span {
+  font-weight: 700;
+  color: #fff;
+}
+.footer-link a {
+  color: #A0A0A0;
+  text-decoration: underline;
+  padding: 0 7px;
+  font-size: 16px;
+}
+.footer-link a:nth-child(1){
+  padding-left: 0;
 }
