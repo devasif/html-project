@@ -157,6 +157,59 @@ li{
     text-align: center;
   }
 
+  /* header for mobile version  */
+  .header-mobile-version{
+    display: none;
+  }
+  .mobile-menu {
+    padding: 10px 30px;
+    background: url("../images/vector2.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .m-logo img {
+    width: 122px;
+    height: 83px;
+  }
+  .m-bar span {
+    font-size: 30px;
+    color: #ffff;
+    cursor: pointer;
+  }
+  
+.m-menu {
+  padding: 30px 20px;
+  background: #720e0d;
+  border-top: 1px solid #8e2c2c;
+  width: 100%;
+  height: 390px;
+  display: none;
+}
+.active{
+  display: block;
+}
+.m-menu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: 38px;
+  text-align: center;
+}
+.m-menu ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all .4s ease-in;
+}
+.m-menu {
+}
+.m-menu ul li a:hover {
+  letter-spacing: 1.4px;
+  border-bottom: 1px solid #db8484;
+}
+
   /* home content area */
   .home-content-area{
     background: url("../images/home-bg.png") no-repeat center center;

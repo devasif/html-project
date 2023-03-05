@@ -17,6 +17,10 @@ $(document).ready(function(){
                 items:3
             }
         }
+    });
+
+    $('.m-bars').click(function(){
+        $( ".m-menu " ).toggleClass( "active", 1000 );
     })
     
 })
