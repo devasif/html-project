@@ -357,11 +357,13 @@
   .footer-info p {
 	text-align: center;
 }
+.profetional-img img {
+	width: 100%;
+}
 }
  
 /* extra Small Screen - Small Mobile */
 @media screen and (max-width: 576px) {
-.container {width:450px}
 .header-mobile-version{
     display: block;
     position: relative;
@@ -436,7 +438,7 @@
 	margin: -32px auto 32px auto;
 }
 .home-area-title h3 {
-	font-size: 16px;
+	font-size: 13px;
 	text-align: center;
 }
 .service-title h3 {
@@ -500,7 +502,7 @@
 }
 .checked {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-content: center;
 	align-items: center;
 }
@@ -535,3 +537,198 @@ max-width: 100%;
 	display: inline-block;
 }
 }
+
+/* small mobile */
+@media (min-width: 360px) and (max-width: 450px) {
+    .header-mobile-version{
+        display: block;
+        position: relative;
+    }
+    .header-menu-area {
+        display: none;
+    }
+    .home-content-area {
+        margin-top: 0px;
+    }
+    .header-section {
+        background: #81100f;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+    }
+    .header-top-area {
+        background: transparent;
+        margin: 0;
+        padding: 4px 10px;
+        display: block;
+    }
+    .social-icon {
+        text-align: right;
+        margin-top: 0;
+    }
+    .social-icon a:nth-child(2)::before {
+        display: none;
+    }
+    .header-middle {
+        margin: 0;
+        padding: 10px;
+    }
+    .header-middle .col-xl-4 {
+        width: 50%;
+      }
+      .content-btn {
+        background-size: contain;
+        padding: 15px 0px 11px 6px;
+        margin: -176px auto 59px auto;
+        width: 100%;
+    }
+      .header-middle .col-xl-4:nth-child(2) {
+        display: none;
+      }
+      .call-address {
+        margin-top: 0;
+        text-align: left;
+    }
+    .brand-heading h5 {
+        font-size: 18px;
+    }
+    .call-address a {
+        padding: 8px 10px;
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+        border-radius: 8px;
+    }
+    .call-data p {
+        font-size: 12px;
+    }
+    .blog-footer p {
+        font-size: 18px;
+    }
+    .call-data a {
+        font-size: 15px;
+    }
+    .content-btn {
+        background-size: contain;
+        padding: 15px 0px 11px 6px;
+        margin: -176px auto 59px auto;
+    }
+    .contents h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .contents p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .home-area-title {
+        background-size: contain;
+        padding: 8px 25px;
+        width: 100%;
+        margin: -32px auto 32px auto;
+    }
+    .home-area-title h3 {
+        font-size: 10px;
+    }
+    .service-title h3 {
+        font-size: 23px;
+    }
+    .brand-img {
+        display: flex;
+        flex-flow: initial;
+    }
+    .services {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        padding: 31px 0;
+    }
+    .services-img img {
+        padding-right: 20px;
+    }
+    .title h2 {
+        font-size: 28px;
+        color: #000000;
+    }
+    .profetional-img img {
+        margin-bottom: 26px;
+    }
+    .service_doc {
+        padding: 51px 0 30px 18px;
+        border-radius: 8px;
+    }
+    .service-img img {
+        margin-top: 0;
+    }
+    .service-img {
+        display: flex;
+    }
+    .brand-img img {
+        display: inline-block;
+        margin-left: 14px;
+        width: 33.33%;
+        display: block;
+    }
+    .title h2 {
+        font-size: 24px;
+    }
+    .contact-form {
+        padding-right: 0px !important;
+        margin-bottom: 20px;
+    }
+    .contact-form input {
+        margin: 28px 0;
+        padding: 14px 20px;
+    }
+    .contact-info {
+        display: block;
+    }
+    .contact-info .contact-call {
+        margin-bottom: 20px;
+    }
+    .footer-area {
+        margin: 0;
+    }
+    .checked {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    }
+    .map {
+    max-width: 100%;
+    }
+    .map iframe {
+    max-width: 100%;
+    }
+    .checked input[type="checkbox"] {
+        width: 12px;
+        display: inline-block;
+    }
+    .checked label {
+        font-size: 12px;
+    }
+    .footer-logo {
+        text-align: center;
+      }
+      .footer-left {
+        text-align: center;
+      }
+      .footer-info {
+        text-align: center;
+      }
+      .footer-info p {
+        text-align: center;
+    }
+    .footer-location ul li span {
+        font-size: 17px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    .service-contact {
+        display: block;
+    }
+    .service-call {
+        margin-bottom: 20px;
+    }
+  }
